@@ -1,5 +1,11 @@
-function SinglePage() {
-  return <h1>This is the Single Page</h1>;
+import Button from "../components/Button";
+import Navbar from "../components/Navbar";
+
+function SinglePage(){
+    return(
+
+       <Navbar />
+    )
 }
 
 export default SinglePage;
